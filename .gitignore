@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+/N04Frontend/node_modules/
+/N04Backend/node_modules/
+
+# Built output
+/N04Frontend/dist/
+/N04Backend/dist/
+
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular specific
+.angular/
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log
+testem.log
+typings/
