@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "myAppFrontend": {
+    "N04Frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/my-app-frontend",
+            "outputPath": "dist/N04Frontend",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "myAppFrontend:build:production"
+              "buildTarget": "N04Frontend:build:production"
             },
             "development": {
-              "buildTarget": "myAppFrontend:build:development"
+              "buildTarget": "N04Frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
